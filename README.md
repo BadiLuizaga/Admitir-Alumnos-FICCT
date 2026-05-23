@@ -1,4 +1,4 @@
-# 🎓 Sistema de Admisión CUP - FICCT
+# 🎓 Sistema de Admisión - FICCT
 
 Bienvenido al sistema de admisión web para el **CUP**. Este proyecto está construido con **Laravel 11**, enfocado en una experiencia de usuario premium, un diseño 100% responsive y una arquitectura sólida basada en estilos puros.
 
