@@ -14,3 +14,26 @@ Asegúrese de tener PHP y Composer instalados. Luego ejecuta:
 
 ```bash
 composer install
+```
+### 2. Configurar el archivo de entorno
+
+Copia el archivo de ejemplo y configura tus credenciales de base de datos en el nuevo archivo
+
+```bash
+cp .env.example .env
+```
+
+### 3. Generar clave de aplicación
+
+Ejecuta este comando para establecer la clave de encriptación del sistema en tu entorno local:
+
+```bash
+php artisan key:generate
+```
+### 4. Levantar el servidor de desarrollo
+
+Para encender la página de forma local, ejecuta el comando nativo de Laravel:
+
+```bash
+php artisan serve
+```
